@@ -36,5 +36,5 @@ const posts = [
 ]
 
 module.exports.index = function (req, res){
-    res.send(posts)
+    res.json(posts)
 }
